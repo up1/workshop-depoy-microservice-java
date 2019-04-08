@@ -39,4 +39,8 @@ $docker image push <username>/product_service:1.0
 ```
 $docker-compose up -d
 $docker-compose ps
+                   Name                             Command             State              Ports
+--------------------------------------------------------------------------------------------------------
+workshop-depoy-microservice-java_catalog_1   java -jar catalog.jar   Up (healthy)   0.0.0.0:80->8080/tcp
+workshop-depoy-microservice-java_product_1   java -jar product.jar   Up (healthy)
 ```
