@@ -22,3 +22,21 @@ $cd product
 $docker image build -t product_service:1.0 .
 $docker image ls
 ```
+
+## Step 4 :: Push image to Container Image Registry (https://hub.docker.com/)
+```
+$docker login
+
+$docker image tag catalog_service:1.0 <username>/catalog_service:1.0
+$docker image push <username>/catalog_service:1.0
+
+$docker image tag product_service:1.0 <username>/product_service:1.0
+$docker image push <username>/product_service:1.0
+```
+
+## Step 5 :: Deploy container with Docker compose
+```
+$cd ..
+$docker-compose up -d
+$docker-compose ps
+```

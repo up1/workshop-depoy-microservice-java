@@ -1,0 +1,12 @@
+version: '3'
+services:
+  catalog:
+    build:
+      context: ./catalog
+    ports:
+      - "80:8080"
+
+  product:
+    build:
+      context: ./product
+  
