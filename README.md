@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/up1/workshop-depoy-microservice-java.svg?branch=master)](https://travis-ci.com/up1/workshop-depoy-microservice-java)
 
+[My catalog service in Google Cloud]http://<ip>:<port>/catalog/1
+
 # Demo :: Deploy microservices with Docker
 
 ## Step 1 :: Clone project
