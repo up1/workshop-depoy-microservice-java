@@ -41,6 +41,7 @@ $docker image push <username>/product_service:1.0
 
 ## Step 5 :: Deploy container with Docker compose
 ```
+$cd ..
 $docker-compose up -d
 $docker-compose ps
                    Name                             Command             State              Ports
